@@ -34,8 +34,8 @@ type PodReconciler struct {
 }
 
 const (
-	addPodNameLabelAnnotation = "cloud.pirates.io/add-pod-name-label"
-	podNameLabel              = "your_label/pod-name"
+	addPodNameLabelAnnotation = "cloudpirates.io/add-pod-name-label"
+	podNameLabel              = "cloudpirates.io/pod-name"
 )
 
 // +kubebuilder:rbac:groups=core,resources=pods,verbs=get;list;watch;create;update;patch;delete
